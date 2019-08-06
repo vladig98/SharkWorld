@@ -58,13 +58,17 @@ main {
 }
 
 main h2 {
-  margin: 3em 0 0 0;
+  margin: 3.5em 0 0 0;
   font-size: 48px;
   font-weight: normal;
 }
 
 main p {
   font-size: 20px;
+}
+
+main h4 {
+  font-size: 30px;
 }
 
 body {
