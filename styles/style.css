@@ -1,1 +1,114 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+nav {
+  margin: 0em 0 1em 0;
+  padding: 1em 0 0 0;
+}
+
+nav ol {
+  list-style: none;
+  margin: 0em 0 0 0;
+  padding: 0;
+}
+
+nav ol li {
+  display: inline-block;
+  border: 1px solid black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 1em;
+  margin-left: 1em;
+  width: 100px;
+  text-align: center;
+}
+
+nav ol li:nth-child(1) {
+  margin: 0;
+}
+
+header {
+  background-color: lightblue;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  margin: 0 5em 0 5em;
+}
+
+main h2 {
+  margin: 3em 0 0 0;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+main p {
+  font-size: 20px;
+}
+
+body {
+  margin: 0 0 100px;
+  padding: 0;
+}
+
+.background {
+  background: -webkit-gradient(linear, left top, right top, from(#958fff), color-stop(37%, #14148c), color-stop(65%, #133e65), to(#52e2ff));
+  background: linear-gradient(90deg, #958fff 0%, #14148c 37%, #133e65 65%, #52e2ff 100%);
+  background-size: 300%;
+  -webkit-animation: flow 10s ease-in-out infinite;
+          animation: flow 10s ease-in-out infinite;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  margin: -3.5em 0 0 11em;
+  font-size: 72px;
+  color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+@-webkit-keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
