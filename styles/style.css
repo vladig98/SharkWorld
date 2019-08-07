@@ -13,37 +13,33 @@ nav ol {
   padding: 0;
 }
 
-nav ol li {
+nav ol a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1em;
+}
+
+nav ol a li {
   display: inline-block;
   border: 1px solid black;
   font-family: "Comic Sans MS", cursive, sans-serif;
   padding: 0.5em;
-  margin-left: 1em;
   width: 100px;
   text-align: center;
   border-radius: 20px;
   font-size: 18px;
 }
 
-nav ol li a {
-  text-decoration: none;
-  color: black;
-}
-
-nav ol li a:visited {
-  color: black;
-}
-
-nav ol li:hover {
+nav ol a li:hover {
   background-color: darkblue;
   color: white;
 }
 
-nav ol li:hover a {
-  color: white;
+nav ol a:visited {
+  color: black;
 }
 
-nav ol li:nth-child(1) {
+nav ol a:nth-child(1) {
   margin: 0;
 }
 
