@@ -78,6 +78,27 @@ main {
     h4 {
         font-size: 30px;
     }
+    ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 2em;
+        li {
+            align-content: center;
+            text-align: center;
+            width: 100%;
+            img {
+                width: inherit;
+                height: max(200px);
+            }
+        }
+        li:nth-child(odd) {
+            padding-top: 1em;
+        }
+        li:nth-child(even) {
+            text-align: left;
+        }
+    }
 }
 
 body {

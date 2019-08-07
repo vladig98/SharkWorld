@@ -93,6 +93,35 @@ main h4 {
   font-size: 30px;
 }
 
+main ul {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2em;
+}
+
+main ul li {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+main ul li img {
+  width: inherit;
+  height: 200px;
+}
+
+main ul li:nth-child(odd) {
+  padding-top: 1em;
+}
+
+main ul li:nth-child(even) {
+  text-align: left;
+}
+
 body {
   margin: 0 0 100px;
   padding: 0;
