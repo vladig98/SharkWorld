@@ -68,6 +68,110 @@ footer {
 
 @media screen and (max-width: 991px) {
 /* start of large tablet styles */
+html {
+    overflow: hidden;
+}
+    main {
+        form {
+            grid-template-columns: 1fr !important;
+            margin: 0 !important;
+            grid-gap: 1em !important;
+            input {
+                grid-row: auto !important;
+                grid-column: auto !important;
+            }
+            textarea {
+                grid-row: auto !important;
+                grid-column: auto !important;
+            }
+            h2 {
+                grid-column: auto !important;
+                grid-row: auto !important;
+            }
+        }
+        margin: 0.5em !important;
+        h2 {
+            font-size: 35px !important;
+        }
+        ul {
+            grid-template-columns: 1fr !important;
+            margin-right: 2em;
+            li {
+                text-align: center;
+                p {
+                    font-size: 22px !important;
+                    text-align: left;
+                    display: inline;
+                }
+                p::after {
+                    content:"\a";
+                    white-space: pre;
+                }
+                img {
+                    width: inherit !important;
+                    height: auto !important;
+                }
+            }
+            li:nth-child(even) {
+                margin-left: auto;
+                text-align: center !important;
+            }
+        }
+        p {
+            font-size: 25px !important;
+        }
+    }
+    body {
+        header {
+            div {
+                display: none;
+            }
+            h1 {
+                font-size: 22px;
+                padding: 0;
+                text-align: right;
+                width: auto;
+            }
+            nav {
+                height: 10vh;
+                ol {
+                    text-align: left;
+                    padding: 0;
+                    li {
+                        display: none;
+                        margin: 0 0 0 1em;
+                        padding: 0;
+                        width: auto;
+                        text-align: left;
+                    }
+                    li:first-child {
+                        display: block;
+                        border: none;
+                        padding: 0;
+                    }
+                    li:first-child:hover {
+                        background-color: transparent;
+                        color: black;
+                    }
+                    a {
+                        display: none;
+                        margin: 0;
+                        padding: 0;
+                        width: auto;
+                    }
+                    a:first-child {
+                        display: block;
+                        border: none;
+                        padding: 0;
+                    }
+                    a:first-child:hover {
+                        background-color: transparent;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -114,6 +218,7 @@ html {
                 }
                 img {
                     width: inherit !important;
+                    height: auto !important;
                 }
             }
             li:nth-child(even) {
