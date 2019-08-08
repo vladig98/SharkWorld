@@ -80,7 +80,7 @@ footer {
   /* start of large tablet styles */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   /* start of medium tablet styles */
   main {
     margin: 0.5em !important;
