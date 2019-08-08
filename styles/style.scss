@@ -78,6 +78,9 @@ footer {
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
+html {
+    overflow: hidden;
+}
     main {
         form {
             grid-template-columns: 1fr !important;
