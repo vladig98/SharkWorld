@@ -82,6 +82,103 @@ footer {
 
 @media screen and (max-width: 767px) {
   /* start of medium tablet styles */
+  main {
+    margin: 0.5em !important;
+  }
+  main form {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    margin: 0 !important;
+    grid-gap: 1em !important;
+  }
+  main form input {
+    grid-row: auto !important;
+    grid-column: auto !important;
+  }
+  main form textarea {
+    grid-row: auto !important;
+    grid-column: auto !important;
+  }
+  main form h2 {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+  main h2 {
+    font-size: 28px !important;
+  }
+  main ul {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  main ul li {
+    text-align: center;
+  }
+  main ul li p {
+    font-size: 22px !important;
+    text-align: left;
+    display: inline;
+  }
+  main ul li p::after {
+    content: "\a";
+    white-space: pre;
+  }
+  main ul li img {
+    width: 300px !important;
+  }
+  main ul li:nth-child(even) {
+    margin-left: auto;
+    text-align: center !important;
+  }
+  main p {
+    font-size: 12px !important;
+  }
+  body header div {
+    display: none;
+  }
+  body header h1 {
+    font-size: 22px;
+    padding: 0;
+    text-align: right;
+    width: auto;
+  }
+  body header nav {
+    height: 10vh;
+  }
+  body header nav ol {
+    text-align: left;
+    padding: 0;
+  }
+  body header nav ol li {
+    display: none;
+    margin: 0 0 0 1em;
+    padding: 0;
+    width: auto;
+    text-align: left;
+  }
+  body header nav ol li:first-child {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+  body header nav ol li:first-child:hover {
+    background-color: transparent;
+    color: black;
+  }
+  body header nav ol a {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  body header nav ol a:first-child {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+  body header nav ol a:first-child:hover {
+    background-color: transparent;
+    color: black;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -123,12 +220,17 @@ footer {
   main ul li p {
     font-size: 15px !important;
     text-align: left;
+    display: inline;
+  }
+  main ul li p::after {
+    content: "\a";
+    white-space: pre;
   }
   main ul li img {
     width: 300px !important;
   }
   main ul li:nth-child(even) {
-    margin-left: 6em;
+    text-align: center !important;
   }
   main p {
     font-size: 12px !important;
