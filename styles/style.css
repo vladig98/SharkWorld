@@ -20,7 +20,7 @@ nav ol a {
 }
 
 nav ol a li {
-  display: inline-block;
+  display: inline-block !important;
   border: 1px solid black;
   font-family: "Comic Sans MS", cursive, sans-serif;
   padding: 0.5em;
@@ -35,12 +35,20 @@ nav ol a li:hover {
   color: white;
 }
 
+nav ol a li:first-child {
+  display: none;
+}
+
 nav ol a:visited {
   color: black;
 }
 
-nav ol a:nth-child(1) {
+nav ol a:nth-child(2) {
   margin: 0;
+}
+
+nav ol a:first-child {
+  display: none;
 }
 
 header {
@@ -66,6 +74,71 @@ footer {
   bottom: 0;
   left: 0;
   overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .homeText {
+    font-size: 22px !important;
+  }
+  main {
+    margin: 0.5em !important;
+  }
+  body header div {
+    display: none;
+  }
+  body header h1 {
+    font-size: 22px;
+    padding: 0;
+    text-align: right;
+    width: auto;
+  }
+  body header nav {
+    height: 10vh;
+  }
+  body header nav ol {
+    text-align: left;
+    padding: 0;
+  }
+  body header nav ol li {
+    display: none;
+    margin: 0 0 0 1em;
+    padding: 0;
+    width: auto;
+    text-align: left;
+  }
+  body header nav ol li:first-child {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+  body header nav ol li:first-child:hover {
+    background-color: transparent;
+    color: black;
+  }
+  body header nav ol a {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  body header nav ol a:first-child {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+  body header nav ol a:first-child:hover {
+    background-color: transparent;
+    color: black;
+  }
 }
 
 main {
