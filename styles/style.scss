@@ -73,6 +73,9 @@ footer {
 
 @media screen and (max-width: 768px) {
 /* start of medium tablet styles */
+html {
+    overflow: hidden;
+}
     main {
         form {
             grid-template-columns: 1fr !important;
@@ -97,6 +100,7 @@ footer {
         }
         ul {
             grid-template-columns: 1fr !important;
+            margin-right: 2em;
             li {
                 text-align: center;
                 p {
@@ -109,7 +113,7 @@ footer {
                     white-space: pre;
                 }
                 img {
-                    width: 300px !important;
+                    width: inherit !important;
                 }
             }
             li:nth-child(even) {
@@ -204,6 +208,7 @@ html {
         }
         ul {
             grid-template-columns: 1fr !important;
+            margin-right: 2em;
             li {
                 text-align: center;
                 p {
@@ -216,7 +221,7 @@ html {
                     white-space: pre;
                 }
                 img {
-                    width: 300px !important;
+                    width: inherit !important;
                 }
             }
             li:nth-child(even) {

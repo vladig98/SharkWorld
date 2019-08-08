@@ -82,6 +82,9 @@ footer {
 
 @media screen and (max-width: 768px) {
   /* start of medium tablet styles */
+  html {
+    overflow: hidden;
+  }
   main {
     margin: 0.5em !important;
   }
@@ -109,6 +112,7 @@ footer {
   main ul {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
+    margin-right: 2em;
   }
   main ul li {
     text-align: center;
@@ -123,7 +127,7 @@ footer {
     white-space: pre;
   }
   main ul li img {
-    width: 300px !important;
+    width: inherit !important;
   }
   main ul li:nth-child(even) {
     margin-left: auto;
@@ -213,6 +217,7 @@ footer {
   main ul {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
+    margin-right: 2em;
   }
   main ul li {
     text-align: center;
@@ -227,7 +232,7 @@ footer {
     white-space: pre;
   }
   main ul li img {
-    width: 300px !important;
+    width: inherit !important;
   }
   main ul li:nth-child(even) {
     text-align: center !important;
