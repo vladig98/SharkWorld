@@ -1,83 +1,5 @@
-nav {
-  margin: 0em 0 1em 0em;
-  padding: 1em 0 0 0;
-  /*
-    color: white;
-    position: absolute;
-    */
-}
-
-nav ol {
-  list-style: none;
-  margin: 0em 0 0 0;
-  padding: 0;
-}
-
-nav ol a {
-  text-decoration: none;
-  color: black;
-  margin-left: 1em;
-}
-
-nav ol a li {
-  display: inline-block !important;
-  border: 1px solid black;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  padding: 0.5em;
-  width: 100px;
-  text-align: center;
-  border-radius: 20px;
-  font-size: 18px;
-}
-
-nav ol a li:hover {
-  background-color: darkblue;
-  color: white;
-}
-
-nav ol a li:first-child {
-  display: none;
-}
-
-nav ol a:visited {
-  color: black;
-}
-
-nav ol a:nth-child(2) {
-  margin: 0;
-}
-
-nav ol a:first-child {
-  display: none;
-}
-
-header {
-  background-color: lightblue;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-footer {
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  height: 10vh;
-  background-color: black;
-  color: white;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 991px) {
-  /* start of large tablet styles */
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
   html {
     overflow: hidden;
   }
@@ -103,7 +25,7 @@ footer {
     grid-row: auto !important;
   }
   main h2 {
-    font-size: 35px !important;
+    font-size: 22px !important;
   }
   main ul {
     -ms-grid-columns: 1fr !important;
@@ -114,7 +36,7 @@ footer {
     text-align: center;
   }
   main ul li p {
-    font-size: 22px !important;
+    font-size: 15px !important;
     text-align: left;
     display: inline;
   }
@@ -127,11 +49,10 @@ footer {
     height: auto !important;
   }
   main ul li:nth-child(even) {
-    margin-left: auto;
     text-align: center !important;
   }
   main p {
-    font-size: 25px !important;
+    font-size: 12px !important;
   }
   body header div {
     display: none;
@@ -288,8 +209,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 479px) {
-  /* start of phone styles */
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
   html {
     overflow: hidden;
   }
@@ -315,7 +236,7 @@ footer {
     grid-row: auto !important;
   }
   main h2 {
-    font-size: 22px !important;
+    font-size: 35px !important;
   }
   main ul {
     -ms-grid-columns: 1fr !important;
@@ -326,7 +247,7 @@ footer {
     text-align: center;
   }
   main ul li p {
-    font-size: 15px !important;
+    font-size: 22px !important;
     text-align: left;
     display: inline;
   }
@@ -339,10 +260,11 @@ footer {
     height: auto !important;
   }
   main ul li:nth-child(even) {
+    margin-left: auto;
     text-align: center !important;
   }
   main p {
-    font-size: 12px !important;
+    font-size: 25px !important;
   }
   body header div {
     display: none;
@@ -391,6 +313,84 @@ footer {
     background-color: transparent;
     color: black;
   }
+}
+
+nav {
+  margin: 0em 0 1em 0em;
+  padding: 1em 0 0 0;
+  /*
+    color: white;
+    position: absolute;
+    */
+}
+
+nav ol {
+  list-style: none;
+  margin: 0em 0 0 0;
+  padding: 0;
+}
+
+nav ol a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1em;
+}
+
+nav ol a li {
+  display: inline-block !important;
+  border: 1px solid black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 0.5em;
+  width: 100px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+nav ol a li:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+nav ol a li:first-child {
+  display: none;
+}
+
+nav ol a:visited {
+  color: black;
+}
+
+nav ol a:nth-child(2) {
+  margin: 0;
+}
+
+nav ol a:first-child {
+  display: none;
+}
+
+header {
+  background-color: lightblue;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
 }
 
 main {
