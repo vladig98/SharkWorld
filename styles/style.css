@@ -90,6 +90,8 @@ main form input {
   display: block;
   border-radius: 20px;
   padding: 1em;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 main form h2 {
@@ -108,6 +110,8 @@ main form textarea {
   border-radius: 20px;
   padding: 1em;
   resize: none;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 main form input:focus {
@@ -160,6 +164,9 @@ main ul li {
 main ul li img {
   width: inherit;
   height: 200px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75);
 }
 
 main ul li:nth-child(odd) {
