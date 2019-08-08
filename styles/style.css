@@ -336,6 +336,7 @@ footer {
   }
   main ul li img {
     width: inherit !important;
+    height: auto !important;
   }
   main ul li:nth-child(even) {
     text-align: center !important;
