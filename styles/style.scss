@@ -1,6 +1,7 @@
 @import "small";
 @import "medium";
 @import "big";
+@import "desktop";
 
 nav {
     margin: 0em 0 1em 0em;
@@ -140,7 +141,7 @@ main {
             width: 100%;
             img {
                 width: inherit;
-                height: max(200px);
+                height: auto;
                 border-radius: 30px;
                 box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.75);
             }

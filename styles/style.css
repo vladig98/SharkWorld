@@ -1,8 +1,4 @@
 @media screen and (max-width: 479px) {
-  /* start of phone styles */
-  html {
-    overflow: hidden;
-  }
   main {
     margin: 0.5em !important;
   }
@@ -104,10 +100,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* start of medium tablet styles */
-  html {
-    overflow: hidden;
-  }
   main {
     margin: 0.5em !important;
   }
@@ -210,10 +202,6 @@
 }
 
 @media screen and (max-width: 991px) {
-  /* start of large tablet styles */
-  html {
-    overflow: hidden;
-  }
   main {
     margin: 0.5em !important;
   }
@@ -312,6 +300,43 @@
   body header nav ol a:first-child:hover {
     background-color: transparent;
     color: black;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  main {
+    margin: 0.5em !important;
+  }
+  main h2 {
+    font-size: 35px !important;
+  }
+  main ul {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    margin-right: 2em;
+  }
+  main ul li {
+    text-align: center;
+  }
+  main ul li p {
+    font-size: 22px !important;
+    text-align: left;
+    display: inline;
+  }
+  main ul li p::after {
+    content: "\a";
+    white-space: pre;
+  }
+  main ul li img {
+    width: inherit !important;
+    height: auto !important;
+  }
+  main ul li:nth-child(even) {
+    margin-left: auto;
+    text-align: center !important;
+  }
+  main p {
+    font-size: 25px !important;
   }
 }
 
@@ -494,7 +519,7 @@ main ul li {
 
 main ul li img {
   width: inherit;
-  height: 200px;
+  height: auto;
   border-radius: 30px;
   -webkit-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75);
