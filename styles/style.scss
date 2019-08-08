@@ -78,11 +78,47 @@ footer {
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
-    .homeText {
-        font-size: 22px !important;
-    }
     main {
+        form {
+            grid-template-columns: 1fr !important;
+            margin: 0 !important;
+            grid-gap: 1em !important;
+            input {
+                grid-row: auto !important;
+                grid-column: auto !important;
+            }
+            textarea {
+                grid-row: auto !important;
+                grid-column: auto !important;
+            }
+            h2 {
+                grid-column: auto !important;
+                grid-row: auto !important;
+            }
+        }
         margin: 0.5em !important;
+        h2 {
+            font-size: 22px !important;
+        }
+        ul {
+            grid-template-columns: 1fr !important;
+            li {
+                text-align: center;
+                p {
+                    font-size: 15px !important;
+                    text-align: left;
+                }
+                img {
+                    width: 300px !important;
+                }
+            }
+            li:nth-child(even) {
+                margin-left: 6em;
+            }
+        }
+        p {
+            font-size: 12px !important;
+        }
     }
     body {
         header {
