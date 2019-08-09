@@ -1,35 +1,4 @@
+@import "mixin";
 @media screen and (max-width: 1365px) {
-        main {
-            margin: 0.5em !important;
-            h2 {
-                font-size: 35px !important;
-            }
-            ul {
-                grid-template-columns: 1fr !important;
-                margin-right: 2em;
-                li {
-                    text-align: center;
-                    p {
-                        font-size: 22px !important;
-                        text-align: left;
-                        display: inline;
-                    }
-                    p::after {
-                        content:"\a";
-                        white-space: pre;
-                    }
-                    img {
-                        width: inherit !important;
-                        height: auto !important;
-                    }
-                }
-                li:nth-child(even) {
-                    margin-left: auto;
-                    text-align: center !important;
-                }
-            }
-            p {
-                font-size: 25px !important;
-            }
-        }
-    }
+    @include main("35px", "22px", "25px");
+}

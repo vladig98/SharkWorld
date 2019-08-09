@@ -21,7 +21,7 @@
     grid-row: auto !important;
   }
   main h2 {
-    font-size: 22px !important;
+    font-size: "22px" !important;
   }
   main ul {
     -ms-grid-columns: 1fr !important;
@@ -32,7 +32,7 @@
     text-align: center;
   }
   main ul li p {
-    font-size: 15px !important;
+    font-size: "15px" !important;
     text-align: left;
     display: inline;
   }
@@ -45,10 +45,11 @@
     height: auto !important;
   }
   main ul li:nth-child(even) {
+    margin-left: auto;
     text-align: center !important;
   }
   main p {
-    font-size: 12px !important;
+    font-size: "12px" !important;
   }
   body header div {
     display: none;
@@ -124,7 +125,7 @@
     grid-row: auto !important;
   }
   main h2 {
-    font-size: 28px !important;
+    font-size: "28px" !important;
   }
   main ul {
     -ms-grid-columns: 1fr !important;
@@ -135,7 +136,7 @@
     text-align: center;
   }
   main ul li p {
-    font-size: 22px !important;
+    font-size: "22px" !important;
     text-align: left;
     display: inline;
   }
@@ -152,7 +153,7 @@
     text-align: center !important;
   }
   main p {
-    font-size: 12px !important;
+    font-size: "12px" !important;
   }
   body header div {
     display: none;
@@ -228,7 +229,7 @@
     grid-row: auto !important;
   }
   main h2 {
-    font-size: 35px !important;
+    font-size: "35px" !important;
   }
   main ul {
     -ms-grid-columns: 1fr !important;
@@ -239,7 +240,7 @@
     text-align: center;
   }
   main ul li p {
-    font-size: 22px !important;
+    font-size: "22px" !important;
     text-align: left;
     display: inline;
   }
@@ -256,7 +257,7 @@
     text-align: center !important;
   }
   main p {
-    font-size: 25px !important;
+    font-size: "25px" !important;
   }
   body header div {
     display: none;
@@ -310,39 +311,37 @@
 }
 
 @media screen and (max-width: 1365px) {
-  main {
-    margin: 0.5em !important;
+  margin: 0.5em !important;
+  h2 {
+    font-size: "35px" !important;
   }
-  main h2 {
-    font-size: 35px !important;
-  }
-  main ul {
+  ul {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
     margin-right: 2em;
   }
-  main ul li {
+  ul li {
     text-align: center;
   }
-  main ul li p {
-    font-size: 22px !important;
+  ul li p {
+    font-size: "22px" !important;
     text-align: left;
     display: inline;
   }
-  main ul li p::after {
+  ul li p::after {
     content: "\a";
     white-space: pre;
   }
-  main ul li img {
+  ul li img {
     width: inherit !important;
     height: auto !important;
   }
-  main ul li:nth-child(even) {
+  ul li:nth-child(even) {
     margin-left: auto;
     text-align: center !important;
   }
-  main p {
-    font-size: 25px !important;
+  p {
+    font-size: "25px" !important;
   }
 }
 
@@ -350,6 +349,22 @@
   h1 {
     margin-left: 15em !important;
   }
+}
+
+footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
 }
 
 nav {
@@ -403,31 +418,6 @@ nav ol a:nth-child(2) {
 
 nav ol a:first-child {
   display: none;
-}
-
-header {
-  background-color: lightblue;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-footer {
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  height: 10vh;
-  background-color: black;
-  color: white;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
 }
 
 main {
@@ -543,6 +533,15 @@ main ul li:nth-child(odd) {
 
 main ul li:nth-child(even) {
   text-align: left;
+}
+
+header {
+  background-color: lightblue;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 body {
