@@ -72,6 +72,7 @@
     padding: 0;
     width: auto;
     text-align: left;
+    font-size: 30px;
   }
   body header nav ol li:first-child {
     display: block;
@@ -87,6 +88,7 @@
     margin: 0;
     padding: 0;
     width: auto;
+    font-size: 30px;
   }
   body header nav ol a:first-child {
     display: block;
@@ -174,6 +176,7 @@
     padding: 0;
     width: auto;
     text-align: left;
+    font-size: 30px;
   }
   body header nav ol li:first-child {
     display: block;
@@ -189,6 +192,7 @@
     margin: 0;
     padding: 0;
     width: auto;
+    font-size: 30px;
   }
   body header nav ol a:first-child {
     display: block;
@@ -276,6 +280,7 @@
     padding: 0;
     width: auto;
     text-align: left;
+    font-size: 30px;
   }
   body header nav ol li:first-child {
     display: block;
@@ -291,6 +296,7 @@
     margin: 0;
     padding: 0;
     width: auto;
+    font-size: 30px;
   }
   body header nav ol a:first-child {
     display: block;
