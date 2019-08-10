@@ -21,6 +21,10 @@ body {
     padding: 0;
 }
 
+#age {
+    grid-column: 2/3 !important;
+}
+
 .background {
     background: linear-gradient(90deg, rgba(149,143,255,1) 0%, rgba(20,20,140,1) 37%, rgba(19,62,101,1) 65%, rgba(82,226,255,1) 100%);
     background-size: 300%;

@@ -1,11 +1,14 @@
 @mixin form {
+    #age {
+        grid-column: 1 !important;
+    }
     form {
         grid-template-columns: 1fr !important;
         margin: 0 !important;
         grid-gap: 1em !important;
         input {
             grid-row: auto !important;
-            grid-column: auto !important;
+            grid-column: 1 !important;
         }
         textarea {
             grid-row: auto !important;
@@ -44,7 +47,7 @@
                         padding: 0;
                         width: auto;
                         text-align: left;
-                        font-size: 30px;
+                        font-size: 40px;
                     }
                     li:first-child {
                         display: block;
@@ -60,7 +63,7 @@
                         margin: 0;
                         padding: 0;
                         width: auto;
-                        font-size: 30px;
+                        font-size: 40px;
                     }
                     a:first-child {
                         display: block;

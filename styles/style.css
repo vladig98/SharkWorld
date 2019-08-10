@@ -2,6 +2,10 @@
   main {
     margin: 0.5em !important;
   }
+  main #age {
+    -ms-grid-column: 1 !important;
+    grid-column: 1 !important;
+  }
   main form {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
@@ -10,7 +14,8 @@
   }
   main form input {
     grid-row: auto !important;
-    grid-column: auto !important;
+    -ms-grid-column: 1 !important;
+    grid-column: 1 !important;
   }
   main form textarea {
     grid-row: auto !important;
@@ -73,7 +78,7 @@
     padding: 0;
     width: auto;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
   }
   body header nav ol li:first-child {
     display: block;
@@ -89,7 +94,7 @@
     margin: 0;
     padding: 0;
     width: auto;
-    font-size: 30px;
+    font-size: 40px;
   }
   body header nav ol a:first-child {
     display: block;
@@ -106,6 +111,10 @@
   main {
     margin: 0.5em !important;
   }
+  main #age {
+    -ms-grid-column: 1 !important;
+    grid-column: 1 !important;
+  }
   main form {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
@@ -114,7 +123,8 @@
   }
   main form input {
     grid-row: auto !important;
-    grid-column: auto !important;
+    -ms-grid-column: 1 !important;
+    grid-column: 1 !important;
   }
   main form textarea {
     grid-row: auto !important;
@@ -177,7 +187,7 @@
     padding: 0;
     width: auto;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
   }
   body header nav ol li:first-child {
     display: block;
@@ -193,7 +203,7 @@
     margin: 0;
     padding: 0;
     width: auto;
-    font-size: 30px;
+    font-size: 40px;
   }
   body header nav ol a:first-child {
     display: block;
@@ -210,6 +220,10 @@
   main {
     margin: 0.5em !important;
   }
+  main #age {
+    -ms-grid-column: 1 !important;
+    grid-column: 1 !important;
+  }
   main form {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
@@ -218,7 +232,8 @@
   }
   main form input {
     grid-row: auto !important;
-    grid-column: auto !important;
+    -ms-grid-column: 1 !important;
+    grid-column: 1 !important;
   }
   main form textarea {
     grid-row: auto !important;
@@ -281,7 +296,7 @@
     padding: 0;
     width: auto;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
   }
   body header nav ol li:first-child {
     display: block;
@@ -297,7 +312,7 @@
     margin: 0;
     padding: 0;
     width: auto;
-    font-size: 30px;
+    font-size: 40px;
   }
   body header nav ol a:first-child {
     display: block;
@@ -547,6 +562,12 @@ html {
 body {
   margin: 0 0 100px;
   padding: 0;
+}
+
+#age {
+  -ms-grid-column: 2 !important;
+  -ms-grid-column-span: 1 !important;
+  grid-column: 2/3 !important;
 }
 
 .background {
