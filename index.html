@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Shark World</title>
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
-        <link href="styles/style.css" type="text/css" rel="stylesheet" />
-        <script src="scripts/script.js"></script>
-        <script src="https://kit.fontawesome.com/81bf2a448e.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ol>
-                    <a href="javascript:Expand();"><li><i class="fas fa-bars"></i></li></a>
-                    <a href="#"><li>Home</li></a>
-                    <a href="pages/sharks.html"><li>Sharks</li></a>
-                    <a href="pages/contacts.html"><li>Contacts</li></a>
-                    <a href="pages/helpus.html"><li>Donate</li></a>
-                    <a href="pages/petition.html"><li>Petition</li></a>
-                </ol>
-            </nav>
-            <div class="background">
-                <img src="images/background.png" />
-            </div>
-            <h1>Shark World</h1>
-        </header>
-        <main>
-            <h2 class="homeText"><strong>Sharks</strong> - Their importance and the risk of extinction.</h2>
-            <p>Sharks, the villians in the sea, or so the media has proven them to be. Since the release of the movie Jaws back in 1975 there were numerous movies about a killer shark hunting humans, especially great whites, thus creating an image that sharks are definetely going to eat you if you come across one.</p>
-            <p>There are more than 465 known species of sharks. Many of these cartilaginous swimmers eat fish, crustaceans, mollusks, plankton, krill, marine mammals, and other sharks—in short, humans are not on the menu.</p>
-            <p>Shark are the apex predators in the water and they are dangerous but not for humans. Sharks are not used to seeing us in the water so whenever you encounter a shark and it comes close to you is not because the shark wants to eat you it's because the shark wants to identify you. The shark is trying to understand if you are a threat or something else. Most of the shark attack that happen are because the curiosity of the shark that goes too far so the shark tries to taste you to see if you are food. The chance of a shark eating you is really slim. Whenever the shark tastes you it will immediately spit you out because sharks do not eat human.</p>
-            <p>In order to be safe when you are swimming with sharks is to stay as close as possible to the bottom of the ocean. If you stay on the top of the water the shark will think that you are a seal and will come for you. Sharks are just curios predators and we are not a part of their diet. If a shark wants to eat somthing, the shark will never go near it and will never swim around it. Whenever sharks hunt they strike from underneath and catch their prey unprepared. So if a shark comes near you, you are safe.</p>                    
-            <p>It's not easy to count exactly how many sharks are there but studies have shown that number of sharks is decreasing. The reasons for that are all the junk inside the ocean poisoning the water around it and the nonstop hunting of sharks for fins. Sharks are being hunted then their fins are being cut off and then the sharks are bein released back in the water to die. Sharks are also unintentionally caught as bycatch.</p>
-            <p>The animals are important to us because they keep our oceans clean from dead marine life and also they are used for studies on cancer treatment and limb regeneration. Also they'are ones of the most beautidul creatures on Earth.</p>
-            <p>So if you wish to help us save them you can donate at least $5 so that we can clean the oceans and we can prevent sharks being poisoned by all the junk in our oceans. Also you can sign the petition against sharks hunting.</p>
-            <h4>Help us save them</h4>
-        </main>
-        <footer>
-            <i class="far fa-copyright"> All Right Reserved - Shark World</i>
-        </footer>
-    </body>
+
+<head>
+    <title>Shark World</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="styles/style.css" type="text/css" rel="stylesheet" />
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="javascript:Expand();"><i class="fas fa-bars"></i></a>
+                </li>
+                <div id="navCollapse">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="/pages/sharks.html">Sharks</a>
+                    </li>
+                    <li>
+                        <a href="/pages/contacts.html">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="/pages/helpus.html">Donate</a>
+                    </li>
+                    <li>
+                        <a href="/pages/petition.html">Petition</a>
+                    </li>
+                </div>
+            </ol>
+        </nav>
+        <div class="background">
+            <img id="shark" src="images/background.png" />
+        </div>
+        <h1>Shark World</h1>
+    </header>
+    <main>
+        <h2 class="homeText"><strong>Sharks</strong> - Their importance and the risk of extinction.</h2>
+        <p>Sharks, the villians in the sea, or so the media has proven them to be. Since the release of the movie Jaws
+            back in 1975 there were numerous movies about a killer shark hunting humans, especially great whites, thus
+            creating an image that sharks are definetely going to eat you if you come across one.</p>
+        <p>There are more than 465 known species of sharks. Many of these cartilaginous swimmers eat fish, crustaceans,
+            mollusks, plankton, krill, marine mammals, and other sharks—in short, humans are not on the menu.</p>
+        <p>Shark are the apex predators in the water and they are dangerous but not for humans. Sharks are not used to
+            seeing us in the water so whenever you encounter a shark and it comes close to you is not because the shark
+            wants to eat you it's because the shark wants to identify you. The shark is trying to understand if you are
+            a threat or something else. Most of the shark attack that happen are because the curiosity of the shark that
+            goes too far so the shark tries to taste you to see if you are food. The chance of a shark eating you is
+            really slim. Whenever the shark tastes you it will immediately spit you out because sharks do not eat human.
+        </p>
+        <p>In order to be safe when you are swimming with sharks is to stay as close as possible to the bottom of the
+            ocean. If you stay on the top of the water the shark will think that you are a seal and will come for you.
+            Sharks are just curios predators and we are not a part of their diet. If a shark wants to eat somthing, the
+            shark will never go near it and will never swim around it. Whenever sharks hunt they strike from underneath
+            and catch their prey unprepared. So if a shark comes near you, you are safe.</p>
+        <p>It's not easy to count exactly how many sharks are there but studies have shown that number of sharks is
+            decreasing. The reasons for that are all the junk inside the ocean poisoning the water around it and the
+            nonstop hunting of sharks for fins. Sharks are being hunted then their fins are being cut off and then the
+            sharks are bein released back in the water to die. Sharks are also unintentionally caught as bycatch.</p>
+        <p>The animals are important to us because they keep our oceans clean from dead marine life and also they are
+            used for studies on cancer treatment and limb regeneration. Also they'are ones of the most beautidul
+            creatures on Earth.</p>
+        <p>So if you wish to help us save them you can donate at least $5 so that we can clean the oceans and we can
+            prevent sharks being poisoned by all the junk in our oceans. Also you can sign the petition against sharks
+            hunting.</p>
+        <h4>Help us save them</h4>
+    </main>
+    <footer>
+        <i class="far fa-copyright"> All Right Reserved - Shark World</i>
+    </footer>
+</body>
+
 </html>

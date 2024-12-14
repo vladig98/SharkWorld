@@ -1,112 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Shark World</title>
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
-        <link href="../styles/style.css" type="text/css" rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/81bf2a448e.js"></script>
-        <script src="../scripts/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ol>
-                    <a href="javascript:Expand();"><li><i class="fas fa-bars"></i></li></a>
-                    <a href="../index.html"><li>Home</li></a>
-                    <a href="sharks.html"><li>Sharks</li></a>
-                    <a href="contacts.html"><li>Contacts</li></a>
-                    <a href="helpus.html"><li>Donate</li></a>
-                    <a href="petition.html"><li>Petition</li></a>
-                </ol>
-            </nav>
-            <div class="background">
-                <img src="../images/background.png" />
-            </div>
-            <h1>Shark World</h1>
-        </header>
-        <main>
-            <h2>Types of Sharks</h2>
-            <section class="grid">
-                <ul>
+
+<head>
+    <title>Shark World</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="../styles/style.css" type="text/css" rel="stylesheet" />
+    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="javascript:Expand();"><i class="fas fa-bars"></i></a>
+                </li>
+                <div id="navCollapse">
                     <li>
-                        <img src="../images/basking shark.jpg" />
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="/pages/sharks.html">Sharks</a>
                     </li>
                     <li>
-                        <p><strong>Name: </strong>Basking Shark</p>
-                        <p><strong>Length: </strong>26ft (8m)</p>
-                        <p><strong>Mass: </strong>11 500lbs (5200kg)</p>
-                        <p><strong>Eats: </strong>Planktons</p>
+                        <a href="/pages/contacts.html">Contacts</a>
                     </li>
                     <li>
-                        <img src="../images/great white.jpg" />
+                        <a href="/pages/helpus.html">Donate</a>
                     </li>
                     <li>
-                        <p><strong>Name: </strong>Great White</p>
-                        <p><strong>Length: </strong>20ft (6m)</p>
-                        <p><strong>Mass: </strong>4200lbs (1905kg)</p>
-                        <p><strong>Eats: </strong>Fish, Seals</p>
+                        <a href="/pages/petition.html">Petition</a>
                     </li>
-                    <li>
-                        <img src="../images/hammerhead.jpg" />
-                    </li>
-                    <li>
-                        <p><strong>Name: </strong>Hammerhead</p>
-                        <p><strong>Length: </strong>14ft (4.4m)</p>
-                        <p><strong>Mass: </strong>1280lbs (580kg)</p>
-                        <p><strong>Eats: </strong>Fish, Stingrays</p>
-                    </li>
-                    <li>
-                        <img src="../images/mako shark.jpg" />
-                    </li>
-                    <li>
-                        <p><strong>Name: </strong>Mako shark</p>
-                        <p><strong>Length: </strong>11.5ft (3.5m)</p>
-                        <p><strong>Mass: </strong>310lbs (140kg)</p>
-                        <p><strong>Eats: </strong>Bony fish</p>
-                    </li>
-                    <li>
-                        <img src="../images/reef shark.jpg" />
-                    </li>
-                    <li>
-                        <p><strong>Name: </strong>Reef Shark</p>
-                        <p><strong>Length: </strong>8.2ft (2.5m)</p>
-                        <p><strong>Mass: </strong>150lbs (70kg)</p>
-                        <p><strong>Eats: </strong>Bony fish</p>
-                    </li>
-                    <li>
-                        <img src="../images/tigershark.jpg" />
-                    </li>
-                    <li>
-                        <p><strong>Name: </strong>Tiger Shark</p>
-                        <p><strong>Length: </strong>13ft (4.25m)</p>
-                        <p><strong>Mass: </strong>1400lbs (635kg)</p>
-                        <p><strong>Eats: </strong>Everything</p>
-                    </li>
-                    <li>
-                        <img src="../images/whale shark.jpg" />
-                    </li>
-                    <li>
-                        <p><strong>Name: </strong>Whale Shark</p>
-                        <p><strong>Length: </strong>62ft (18.8m)</p>
-                        <p><strong>Mass: </strong>20 000lbs (9 000kg)</p>
-                        <p><strong>Eats: </strong>Planktons</p>
-                    </li>
-                    <li>
-                        <img src="../images/meg.jpg" />
-                    </li>
-                    <li>
-                        <p><strong>Name: </strong>Megalodon (extinct)</p>
-                        <p><strong>Length: </strong>60ft (18m)</p>
-                        <p><strong>Mass: </strong>106 000lbs (48 000kg)</p>
-                        <p><strong>Eats: </strong>Whales</p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <i class="far fa-copyright"> All Right Reserved - Shark World</i>
-        </footer>
-    </body>
+                </div>
+            </ol>
+        </nav>
+        <div class="background">
+            <img id="shark" src="../images/background.png" />
+        </div>
+        <h1>Shark World</h1>
+    </header>
+    <main>
+        <h2>Types of Sharks</h2>
+        <section class="grid">
+            <ul>
+                <li>
+                    <img src="../images/basking shark.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Basking Shark</p>
+                    <p><strong>Length: </strong>26ft (8m)</p>
+                    <p><strong>Mass: </strong>11 500lbs (5200kg)</p>
+                    <p><strong>Eats: </strong>Planktons</p>
+                </li>
+                <li>
+                    <img src="../images/great white.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Great White</p>
+                    <p><strong>Length: </strong>20ft (6m)</p>
+                    <p><strong>Mass: </strong>4200lbs (1905kg)</p>
+                    <p><strong>Eats: </strong>Fish, Seals</p>
+                </li>
+                <li>
+                    <img src="../images/hammerhead.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Hammerhead</p>
+                    <p><strong>Length: </strong>14ft (4.4m)</p>
+                    <p><strong>Mass: </strong>1280lbs (580kg)</p>
+                    <p><strong>Eats: </strong>Fish, Stingrays</p>
+                </li>
+                <li>
+                    <img src="../images/mako shark.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Mako shark</p>
+                    <p><strong>Length: </strong>11.5ft (3.5m)</p>
+                    <p><strong>Mass: </strong>310lbs (140kg)</p>
+                    <p><strong>Eats: </strong>Bony fish</p>
+                </li>
+                <li>
+                    <img src="../images/reef shark.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Reef Shark</p>
+                    <p><strong>Length: </strong>8.2ft (2.5m)</p>
+                    <p><strong>Mass: </strong>150lbs (70kg)</p>
+                    <p><strong>Eats: </strong>Bony fish</p>
+                </li>
+                <li>
+                    <img src="../images/tigershark.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Tiger Shark</p>
+                    <p><strong>Length: </strong>13ft (4.25m)</p>
+                    <p><strong>Mass: </strong>1400lbs (635kg)</p>
+                    <p><strong>Eats: </strong>Everything</p>
+                </li>
+                <li>
+                    <img src="../images/whale shark.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Whale Shark</p>
+                    <p><strong>Length: </strong>62ft (18.8m)</p>
+                    <p><strong>Mass: </strong>20 000lbs (9 000kg)</p>
+                    <p><strong>Eats: </strong>Planktons</p>
+                </li>
+                <li>
+                    <img src="../images/meg.jpg" />
+                </li>
+                <li>
+                    <p><strong>Name: </strong>Megalodon (extinct)</p>
+                    <p><strong>Length: </strong>60ft (18m)</p>
+                    <p><strong>Mass: </strong>106 000lbs (48 000kg)</p>
+                    <p><strong>Eats: </strong>Whales</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <i class="far fa-copyright"> All Right Reserved - Shark World</i>
+    </footer>
+</body>
+
 </html>

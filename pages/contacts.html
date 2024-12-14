@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Shark World</title>
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
-        <link href="../styles/style.css" type="text/css" rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/81bf2a448e.js"></script>
-        <script src="../scripts/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ol>
-                    <a href="javascript:Expand();"><li><i class="fas fa-bars"></i></li></a>
-                    <a href="../index.html"><li>Home</li></a>
-                    <a href="sharks.html"><li>Sharks</li></a>
-                    <a href="contacts.html"><li>Contacts</li></a>
-                    <a href="helpus.html"><li>Donate</li></a>
-                    <a href="petition.html"><li>Petition</li></a>
-                </ol>
-            </nav>
-            <div class="background">
-                <img src="../images/background.png" />
-            </div>
-            <h1>Shark World</h1>
-        </header>
-        <main>
-            <form>
-                <h2>Contact us</h2>
-                <input type="email" placeholder="Your email" />
-                <input type="text" placeholder="Your name" />
-                <textarea rows="3" cols="5" placeholder="Your message"></textarea>
-                <input type="submit" value="Send" />
-            </form>
-        </main>
-        <footer>
-            <i class="far fa-copyright"> All Right Reserved - Shark World</i>
-        </footer>
-    </body>
+
+<head>
+    <title>Shark World</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="../styles/style.css" type="text/css" rel="stylesheet" />
+    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="javascript:Expand();"><i class="fas fa-bars"></i></a>
+                </li>
+                <div id="navCollapse">
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/pages/sharks.html">Sharks</a>
+                    </li>
+                    <li class="active">
+                        <a href="/pages/contacts.html">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="/pages/helpus.html">Donate</a>
+                    </li>
+                    <li>
+                        <a href="/pages/petition.html">Petition</a>
+                    </li>
+                </div>
+            </ol>
+        </nav>
+        <div class="background">
+            <img id="shark" src="../images/background.png" />
+        </div>
+        <h1>Shark World</h1>
+    </header>
+    <main>
+        <form>
+            <h2>Contact us</h2>
+            <input type="email" placeholder="Your email" />
+            <input type="text" placeholder="Your name" />
+            <textarea rows="3" cols="5" placeholder="Your message"></textarea>
+            <input type="submit" value="Send" />
+        </form>
+    </main>
+    <footer>
+        <i class="far fa-copyright"> All Right Reserved - Shark World</i>
+    </footer>
+</body>
+
 </html>

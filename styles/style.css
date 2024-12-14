@@ -1,20 +1,14 @@
 @media screen and (max-width: 479px) {
-  main {
-    margin: 0.5em !important;
-  }
   main #age {
-    -ms-grid-column: 1 !important;
     grid-column: 1 !important;
   }
   main form {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
     margin: 0 !important;
     grid-gap: 1em !important;
   }
   main form input {
     grid-row: auto !important;
-    -ms-grid-column: 1 !important;
     grid-column: 1 !important;
   }
   main form textarea {
@@ -25,12 +19,14 @@
     grid-column: auto !important;
     grid-row: auto !important;
   }
+  main main {
+    margin: 0.5em !important;
+  }
   main h2 {
     font-size: "22px" !important;
   }
   main ul {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
     margin-right: 2em;
   }
   main ul li {
@@ -56,8 +52,12 @@
   main p {
     font-size: "12px" !important;
   }
+  body header {
+    background-color: rgb(0, 89, 179) !important;
+  }
   body header div {
     display: none;
+    height: auto !important;
   }
   body header h1 {
     font-size: 22px;
@@ -87,7 +87,6 @@
   }
   body header nav ol li:first-child:hover {
     background-color: transparent;
-    color: black;
   }
   body header nav ol a {
     display: none;
@@ -103,27 +102,46 @@
   }
   body header nav ol a:first-child:hover {
     background-color: transparent;
-    color: black;
+  }
+  body header nav ol div {
+    display: none;
+  }
+  body header nav ol div li {
+    display: block;
+    width: 100%;
+    border: none;
+    color: rgb(199, 187, 187);
+    margin: 0;
+    padding: 0 0 0 2rem;
+  }
+  body header nav ol div li a:hover {
+    color: rgb(199, 187, 187);
+  }
+  body header nav ol div li:first-child {
+    padding: 0 0 0 2rem;
+  }
+  body header nav ol div li:hover {
+    color: rgb(199, 187, 187);
+    border-radius: 0;
+  }
+  body header nav ol div li:first-child:hover {
+    background-color: rgb(0, 51, 102) !important;
+  }
+  body header nav ol div a:first-child:hover {
+    background-color: rgb(0, 51, 102) !important;
   }
 }
-
 @media screen and (max-width: 768px) {
-  main {
-    margin: 0.5em !important;
-  }
   main #age {
-    -ms-grid-column: 1 !important;
     grid-column: 1 !important;
   }
   main form {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
     margin: 0 !important;
     grid-gap: 1em !important;
   }
   main form input {
     grid-row: auto !important;
-    -ms-grid-column: 1 !important;
     grid-column: 1 !important;
   }
   main form textarea {
@@ -134,12 +152,14 @@
     grid-column: auto !important;
     grid-row: auto !important;
   }
+  main main {
+    margin: 0.5em !important;
+  }
   main h2 {
     font-size: "28px" !important;
   }
   main ul {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
     margin-right: 2em;
   }
   main ul li {
@@ -165,8 +185,12 @@
   main p {
     font-size: "12px" !important;
   }
+  body header {
+    background-color: rgb(0, 89, 179) !important;
+  }
   body header div {
     display: none;
+    height: auto !important;
   }
   body header h1 {
     font-size: 22px;
@@ -196,7 +220,6 @@
   }
   body header nav ol li:first-child:hover {
     background-color: transparent;
-    color: black;
   }
   body header nav ol a {
     display: none;
@@ -212,27 +235,46 @@
   }
   body header nav ol a:first-child:hover {
     background-color: transparent;
-    color: black;
+  }
+  body header nav ol div {
+    display: none;
+  }
+  body header nav ol div li {
+    display: block;
+    width: 100%;
+    border: none;
+    color: rgb(199, 187, 187);
+    margin: 0;
+    padding: 0 0 0 2rem;
+  }
+  body header nav ol div li a:hover {
+    color: rgb(199, 187, 187);
+  }
+  body header nav ol div li:first-child {
+    padding: 0 0 0 2rem;
+  }
+  body header nav ol div li:hover {
+    color: rgb(199, 187, 187);
+    border-radius: 0;
+  }
+  body header nav ol div li:first-child:hover {
+    background-color: rgb(0, 51, 102) !important;
+  }
+  body header nav ol div a:first-child:hover {
+    background-color: rgb(0, 51, 102) !important;
   }
 }
-
 @media screen and (max-width: 991px) {
-  main {
-    margin: 0.5em !important;
-  }
   main #age {
-    -ms-grid-column: 1 !important;
     grid-column: 1 !important;
   }
   main form {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
     margin: 0 !important;
     grid-gap: 1em !important;
   }
   main form input {
     grid-row: auto !important;
-    -ms-grid-column: 1 !important;
     grid-column: 1 !important;
   }
   main form textarea {
@@ -243,12 +285,14 @@
     grid-column: auto !important;
     grid-row: auto !important;
   }
+  main main {
+    margin: 0.5em !important;
+  }
   main h2 {
     font-size: "35px" !important;
   }
   main ul {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
     margin-right: 2em;
   }
   main ul li {
@@ -274,8 +318,12 @@
   main p {
     font-size: "25px" !important;
   }
+  body header {
+    background-color: rgb(0, 89, 179) !important;
+  }
   body header div {
     display: none;
+    height: auto !important;
   }
   body header h1 {
     font-size: 22px;
@@ -305,7 +353,6 @@
   }
   body header nav ol li:first-child:hover {
     background-color: transparent;
-    color: black;
   }
   body header nav ol a {
     display: none;
@@ -321,18 +368,44 @@
   }
   body header nav ol a:first-child:hover {
     background-color: transparent;
-    color: black;
+  }
+  body header nav ol div {
+    display: none;
+  }
+  body header nav ol div li {
+    display: block;
+    width: 100%;
+    border: none;
+    color: rgb(199, 187, 187);
+    margin: 0;
+    padding: 0 0 0 2rem;
+  }
+  body header nav ol div li a:hover {
+    color: rgb(199, 187, 187);
+  }
+  body header nav ol div li:first-child {
+    padding: 0 0 0 2rem;
+  }
+  body header nav ol div li:hover {
+    color: rgb(199, 187, 187);
+    border-radius: 0;
+  }
+  body header nav ol div li:first-child:hover {
+    background-color: rgb(0, 51, 102) !important;
+  }
+  body header nav ol div a:first-child:hover {
+    background-color: rgb(0, 51, 102) !important;
   }
 }
-
 @media screen and (max-width: 1365px) {
-  margin: 0.5em !important;
+  main {
+    margin: 0.5em !important;
+  }
   h2 {
     font-size: "35px" !important;
   }
   ul {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
     margin-right: 2em;
   }
   ul li {
@@ -359,23 +432,19 @@
     font-size: "25px" !important;
   }
 }
-
 @media screen and (min-width: 1600px) {
   h1 {
     margin-left: 15em !important;
   }
 }
-
 footer {
   width: 100%;
-  display: -ms-grid;
   display: grid;
   height: 10vh;
-  background-color: black;
+  background-color: rgb(0, 26, 51);
   color: white;
   text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -384,174 +453,139 @@ footer {
 
 nav {
   margin: 0em 0 1em 0em;
-  padding: 1em 0 0 0;
-  /*
-    color: white;
-    position: absolute;
-    */
 }
-
 nav ol {
   list-style: none;
   margin: 0em 0 0 0;
   padding: 0;
+  color: rgb(199, 187, 187);
 }
-
-nav ol a {
-  text-decoration: none;
-  color: black;
-  margin-left: 1em;
+nav ol li:first-child {
+  display: none;
+  color: rgb(199, 187, 187);
 }
-
-nav ol a li {
+nav ol div {
+  background-color: rgb(0, 89, 179);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+nav ol div li {
   display: inline-block !important;
+}
+nav ol li {
+  margin-left: 1em;
+  display: inline-block;
+  border-radius: 20px;
   border: 1px solid black;
+}
+nav ol li a {
+  display: inline-block !important;
   font-family: "Comic Sans MS", cursive, sans-serif;
   padding: 0.5em;
   width: 100px;
   text-align: center;
-  border-radius: 20px;
   font-size: 18px;
+  text-decoration: none;
 }
-
-nav ol a li:hover {
-  background-color: darkblue;
-  color: white;
+nav ol li a i {
+  color: rgb(199, 187, 187);
 }
-
-nav ol a li:first-child {
-  display: none;
+nav ol li:hover {
+  background-color: rgb(0, 51, 102);
 }
-
 nav ol a:visited {
-  color: black;
+  color: rgb(199, 187, 187);
 }
-
 nav ol a:nth-child(2) {
   margin: 0;
 }
-
 nav ol a:first-child {
   display: none;
 }
 
 main {
-  display: -ms-grid;
   display: grid;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   text-align: center;
   margin: 0 5em 0 5em;
 }
-
 main form {
   margin: 1em 15em 0 15em;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 0.5em;
 }
-
 main form input {
   display: block;
   border-radius: 20px;
   padding: 1em;
-  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
 }
-
 main form h2 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-column: 1/3;
 }
-
 main form textarea {
   display: block;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
   grid-row: 2/4;
-  -ms-grid-column: 2;
   grid-column: 2;
   border-radius: 20px;
   padding: 1em;
   resize: none;
-  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
 }
-
 main form input:focus {
   outline: none;
 }
-
 main form textarea:focus {
   outline: none;
 }
-
-main form input[type="submit"] {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+main form input[type=submit] {
   grid-column: 1/3;
   background-color: lightblue;
 }
-
-main form input[type="number"] {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+main form input[type=number] {
   grid-column: 1/3;
 }
-
 main h2 {
   margin: 3.5em 0 0 0;
   font-size: 48px;
   font-weight: normal;
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
 }
-
 main p {
   font-size: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
-
 main h4 {
   font-size: 30px;
 }
-
 main ul {
   list-style: none;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 2em;
 }
-
 main ul li {
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   text-align: center;
   width: 100%;
 }
-
 main ul li img {
   width: inherit;
   height: auto;
   border-radius: 30px;
-  -webkit-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75);
 }
-
 main ul li:nth-child(odd) {
   padding-top: 1em;
 }
-
 main ul li:nth-child(even) {
   text-align: left;
 }
 
 header {
-  background-color: lightblue;
+  background-color: rgb(0, 102, 204);
 }
 
 html {
@@ -562,51 +596,1092 @@ html {
 body {
   margin: 0 0 100px;
   padding: 0;
+  background-color: rgb(0, 64, 128);
+  color: rgb(199, 187, 187);
+}
+
+.active {
+  background-color: rgb(52, 139, 226);
+  border-radius: 20px;
 }
 
 #age {
-  -ms-grid-column: 2 !important;
-  -ms-grid-column-span: 1 !important;
   grid-column: 2/3 !important;
 }
 
+.bubble {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(204, 208, 213) 10%, rgb(195, 200, 205) 90%, rgb(255, 255, 255) 100%);
+  aspect-ratio: 1/1;
+  width: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.2;
+}
+
 .background {
-  background: -webkit-gradient(linear, left top, right top, from(#958fff), color-stop(37%, #14148c), color-stop(65%, #133e65), to(#52e2ff));
-  background: linear-gradient(90deg, #958fff 0%, #14148c 37%, #133e65 65%, #52e2ff 100%);
+  position: relative;
+  background: rgb(0, 26, 51);
+  background: linear-gradient(0deg, rgb(0, 26, 51) 19%, rgb(0, 51, 102) 36%, rgb(0, 64, 128) 60%, rgb(0, 89, 179) 81%, rgb(0, 102, 204) 100%);
   background-size: 300%;
-  -webkit-animation: flow 10s ease-in-out infinite;
-          animation: flow 10s ease-in-out infinite;
+  overflow: hidden;
+}
+.background .bubble:nth-of-type(1) {
+  top: 11%;
+  left: 62%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(2) {
+  top: 33%;
+  left: 20%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(3) {
+  top: 56%;
+  left: 55%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(4) {
+  top: 42%;
+  left: 64%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(5) {
+  top: 75%;
+  left: 57%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(6) {
+  top: 15%;
+  left: 93%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(7) {
+  top: 57%;
+  left: 34%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(8) {
+  top: 3%;
+  left: 39%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(9) {
+  top: 69%;
+  left: 60%;
+  animation: bubbleFloat 5s infinite;
+}
+.background .bubble:nth-of-type(10) {
+  top: 23%;
+  left: 42%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(11) {
+  top: 95%;
+  left: 15%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(12) {
+  top: 55%;
+  left: 88%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(13) {
+  top: 88%;
+  left: 79%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(14) {
+  top: 24%;
+  left: 77%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(15) {
+  top: 14%;
+  left: 8%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(16) {
+  top: 26%;
+  left: 17%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(17) {
+  top: 58%;
+  left: 33%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(18) {
+  top: 80%;
+  left: 43%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(19) {
+  top: 41%;
+  left: 24%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(20) {
+  top: 78%;
+  left: 86%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(21) {
+  top: 57%;
+  left: 36%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(22) {
+  top: 61%;
+  left: 19%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(23) {
+  top: 41%;
+  left: 87%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(24) {
+  top: 82%;
+  left: 20%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(25) {
+  top: 88%;
+  left: 47%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(26) {
+  top: 80%;
+  left: 76%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(27) {
+  top: 72%;
+  left: 28%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(28) {
+  top: 51%;
+  left: 9%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(29) {
+  top: 5%;
+  left: 11%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(30) {
+  top: 35%;
+  left: 70%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(31) {
+  top: 15%;
+  left: 75%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(32) {
+  top: 66%;
+  left: 86%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(33) {
+  top: 25%;
+  left: 27%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(34) {
+  top: 37%;
+  left: 45%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(35) {
+  top: 38%;
+  left: 84%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(36) {
+  top: 74%;
+  left: 79%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(37) {
+  top: 63%;
+  left: 38%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(38) {
+  top: 28%;
+  left: 67%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(39) {
+  top: 28%;
+  left: 49%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(40) {
+  top: 85%;
+  left: 51%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(41) {
+  top: 15%;
+  left: 27%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(42) {
+  top: 32%;
+  left: 28%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(43) {
+  top: 68%;
+  left: 71%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(44) {
+  top: 62%;
+  left: 63%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(45) {
+  top: 71%;
+  left: 94%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(46) {
+  top: 46%;
+  left: 20%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(47) {
+  top: 10%;
+  left: 84%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(48) {
+  top: 14%;
+  left: 68%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(49) {
+  top: 52%;
+  left: 31%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(50) {
+  top: 41%;
+  left: 73%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(51) {
+  top: 57%;
+  left: 19%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(52) {
+  top: 74%;
+  left: 62%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(53) {
+  top: 49%;
+  left: 75%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(54) {
+  top: 16%;
+  left: 70%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(55) {
+  top: 91%;
+  left: 42%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(56) {
+  top: 87%;
+  left: 60%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(57) {
+  top: 69%;
+  left: 17%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(58) {
+  top: 34%;
+  left: 24%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(59) {
+  top: 78%;
+  left: 61%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(60) {
+  top: 15%;
+  left: 32%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(61) {
+  top: 5%;
+  left: 2%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(62) {
+  top: 33%;
+  left: 40%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(63) {
+  top: 66%;
+  left: 7%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(64) {
+  top: 68%;
+  left: 4%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(65) {
+  top: 13%;
+  left: 3%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(66) {
+  top: 64%;
+  left: 41%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(67) {
+  top: 61%;
+  left: 9%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(68) {
+  top: 9%;
+  left: 30%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(69) {
+  top: 43%;
+  left: 71%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(70) {
+  top: 75%;
+  left: 77%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(71) {
+  top: 93%;
+  left: 45%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(72) {
+  top: 41%;
+  left: 43%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(73) {
+  top: 54%;
+  left: 30%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(74) {
+  top: 76%;
+  left: 75%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(75) {
+  top: 90%;
+  left: 58%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(76) {
+  top: 28%;
+  left: 64%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(77) {
+  top: 28%;
+  left: 29%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(78) {
+  top: 43%;
+  left: 57%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(79) {
+  top: 44%;
+  left: 54%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(80) {
+  top: 12%;
+  left: 88%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(81) {
+  top: 13%;
+  left: 56%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(82) {
+  top: 60%;
+  left: 41%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(83) {
+  top: 56%;
+  left: 19%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(84) {
+  top: 41%;
+  left: 94%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(85) {
+  top: 85%;
+  left: 91%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(86) {
+  top: 61%;
+  left: 68%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(87) {
+  top: 36%;
+  left: 64%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(88) {
+  top: 10%;
+  left: 76%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(89) {
+  top: 64%;
+  left: 71%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(90) {
+  top: 30%;
+  left: 52%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(91) {
+  top: 40%;
+  left: 78%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(92) {
+  top: 72%;
+  left: 60%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(93) {
+  top: 4%;
+  left: 20%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(94) {
+  top: 69%;
+  left: 47%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(95) {
+  top: 70%;
+  left: 50%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(96) {
+  top: 21%;
+  left: 71%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(97) {
+  top: 44%;
+  left: 14%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(98) {
+  top: 31%;
+  left: 51%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(99) {
+  top: 60%;
+  left: 67%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(100) {
+  top: 29%;
+  left: 71%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(101) {
+  top: 11%;
+  left: 85%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(102) {
+  top: 24%;
+  left: 71%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(103) {
+  top: 84%;
+  left: 3%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(104) {
+  top: 56%;
+  left: 17%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(105) {
+  top: 30%;
+  left: 14%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(106) {
+  top: 63%;
+  left: 34%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(107) {
+  top: 58%;
+  left: 50%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(108) {
+  top: 63%;
+  left: 37%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(109) {
+  top: 22%;
+  left: 94%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(110) {
+  top: 5%;
+  left: 7%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(111) {
+  top: 17%;
+  left: 75%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(112) {
+  top: 49%;
+  left: 25%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(113) {
+  top: 4%;
+  left: 45%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(114) {
+  top: 34%;
+  left: 1%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(115) {
+  top: 87%;
+  left: 79%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(116) {
+  top: 85%;
+  left: 50%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(117) {
+  top: 9%;
+  left: 84%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(118) {
+  top: 27%;
+  left: 11%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(119) {
+  top: 1%;
+  left: 20%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(120) {
+  top: 70%;
+  left: 70%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(121) {
+  top: 13%;
+  left: 67%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(122) {
+  top: 9%;
+  left: 75%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(123) {
+  top: 63%;
+  left: 3%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(124) {
+  top: 64%;
+  left: 95%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(125) {
+  top: 49%;
+  left: 5%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(126) {
+  top: 16%;
+  left: 83%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(127) {
+  top: 93%;
+  left: 29%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(128) {
+  top: 83%;
+  left: 20%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(129) {
+  top: 76%;
+  left: 45%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(130) {
+  top: 19%;
+  left: 80%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(131) {
+  top: 6%;
+  left: 74%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(132) {
+  top: 95%;
+  left: 4%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(133) {
+  top: 24%;
+  left: 49%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(134) {
+  top: 1%;
+  left: 50%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(135) {
+  top: 84%;
+  left: 54%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(136) {
+  top: 90%;
+  left: 82%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(137) {
+  top: 23%;
+  left: 49%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(138) {
+  top: 45%;
+  left: 30%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(139) {
+  top: 42%;
+  left: 84%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(140) {
+  top: 68%;
+  left: 61%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(141) {
+  top: 55%;
+  left: 64%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(142) {
+  top: 14%;
+  left: 1%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(143) {
+  top: 12%;
+  left: 14%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(144) {
+  top: 89%;
+  left: 55%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(145) {
+  top: 73%;
+  left: 9%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(146) {
+  top: 74%;
+  left: 68%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(147) {
+  top: 43%;
+  left: 67%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(148) {
+  top: 14%;
+  left: 24%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(149) {
+  top: 73%;
+  left: 69%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(150) {
+  top: 21%;
+  left: 89%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(151) {
+  top: 47%;
+  left: 23%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(152) {
+  top: 3%;
+  left: 76%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(153) {
+  top: 19%;
+  left: 92%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(154) {
+  top: 80%;
+  left: 41%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(155) {
+  top: 54%;
+  left: 91%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(156) {
+  top: 51%;
+  left: 85%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(157) {
+  top: 69%;
+  left: 94%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(158) {
+  top: 36%;
+  left: 26%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(159) {
+  top: 29%;
+  left: 76%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(160) {
+  top: 81%;
+  left: 6%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(161) {
+  top: 83%;
+  left: 33%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(162) {
+  top: 66%;
+  left: 45%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(163) {
+  top: 43%;
+  left: 41%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(164) {
+  top: 95%;
+  left: 52%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(165) {
+  top: 41%;
+  left: 16%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(166) {
+  top: 49%;
+  left: 87%;
+  animation: bubbleFloat 13s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(167) {
+  top: 53%;
+  left: 34%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(168) {
+  top: 51%;
+  left: 30%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(169) {
+  top: 57%;
+  left: 42%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(170) {
+  top: 76%;
+  left: 62%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(171) {
+  top: 74%;
+  left: 46%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(172) {
+  top: 2%;
+  left: 20%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(173) {
+  top: 58%;
+  left: 63%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(174) {
+  top: 19%;
+  left: 7%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(175) {
+  top: 15%;
+  left: 44%;
+  animation: bubbleFloat 15s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(176) {
+  top: 76%;
+  left: 95%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(177) {
+  top: 2%;
+  left: 62%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(178) {
+  top: 24%;
+  left: 45%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(179) {
+  top: 70%;
+  left: 30%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(180) {
+  top: 83%;
+  left: 92%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(181) {
+  top: 15%;
+  left: 43%;
+  animation: bubbleFloat 10s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(182) {
+  top: 85%;
+  left: 68%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(183) {
+  top: 57%;
+  left: 50%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(184) {
+  top: 91%;
+  left: 72%;
+  animation: bubbleFloat 11s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(185) {
+  top: 60%;
+  left: 48%;
+  animation: bubbleFloat 7s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(186) {
+  top: 42%;
+  left: 86%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(187) {
+  top: 16%;
+  left: 68%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(188) {
+  top: 93%;
+  left: 42%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(189) {
+  top: 78%;
+  left: 73%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(190) {
+  top: 37%;
+  left: 28%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(191) {
+  top: 37%;
+  left: 61%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(192) {
+  top: 2%;
+  left: 65%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(193) {
+  top: 80%;
+  left: 33%;
+  animation: bubbleFloat 12s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(194) {
+  top: 1%;
+  left: 28%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(195) {
+  top: 39%;
+  left: 11%;
+  animation: bubbleFloat 6s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(196) {
+  top: 79%;
+  left: 85%;
+  animation: bubbleFloat 8s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(197) {
+  top: 44%;
+  left: 28%;
+  animation: bubbleFloat 14s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(198) {
+  top: 82%;
+  left: 77%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(199) {
+  top: 50%;
+  left: 39%;
+  animation: bubbleFloat 5s ease-in-out infinite;
+}
+.background .bubble:nth-of-type(200) {
+  top: 15%;
+  left: 1%;
+  animation: bubbleFloat 9s ease-in-out infinite;
+}
+
+#shark {
+  animation: swim 10s ease-in-out infinite;
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   margin: -3.5em 0 0 11em;
   font-size: 72px;
   color: white;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-@-webkit-keyframes flow {
+@keyframes swim {
   0% {
-    background-position: 0 50%;
+    transform: translateX(-60%) scale(0%);
   }
-  50% {
-    background-position: 100% 50%;
+  69% {
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(260%);
+    opacity: 0;
+  }
+  72% {
+    opacity: 0;
+    transform: translateX(-260%);
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
   }
   100% {
-    background-position: 0 50%;
+    transform: translateX(0%) scale(0%);
+  }
+}
+@keyframes bubbleFloat {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-1500%);
+  }
+}
+@keyframes bubbleShake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5%);
+  }
+  75% {
+    transform: translateX(5%);
   }
 }
 
-@keyframes flow {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
 /*# sourceMappingURL=style.css.map */
