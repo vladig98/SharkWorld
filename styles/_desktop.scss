@@ -1,4 +1,4 @@
-@import "mixin";
+@use "mixin" as m;
 @media screen and (max-width: 1365px) {
-    @include main("35px", "22px", "25px");
+    @include m.main("35px", "22px", "25px");
 }

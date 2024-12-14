@@ -1,4 +1,4 @@
-@import "mixin";
+@use "mixin" as m;
 @media screen and (max-width: 991px) {
-    @include responsive("35px", "22px", "25px");       
+    @include m.responsive("35px", "22px", "25px");
 }

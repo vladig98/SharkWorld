@@ -1,46 +1,79 @@
+@use "sass:math";
+
+@mixin bubble-positions($count) {
+    @for $i from 1 through $count {
+        .bubble:nth-of-type(#{$i}) {
+            top: random($limit: 95) * 1%;
+            left: random($limit: 95) * 1%;
+
+            @if $i < 10 {
+                animation: bubbleFloat 5s infinite;
+            }
+
+            @else {
+                animation: bubbleFloat max(random($limit: 15), 5) * 1s ease-in-out infinite;
+            }
+
+        }
+    }
+}
+
 @mixin form {
     #age {
         grid-column: 1 !important;
     }
+
     form {
         grid-template-columns: 1fr !important;
         margin: 0 !important;
         grid-gap: 1em !important;
+
         input {
             grid-row: auto !important;
             grid-column: 1 !important;
         }
+
         textarea {
             grid-row: auto !important;
             grid-column: auto !important;
         }
+
         h2 {
             grid-column: auto !important;
             grid-row: auto !important;
         }
     }
 }
+
 @mixin responsive ($h2, $liP, $p) {
     main {
         @include form;
         @include main($h2, $liP, $p);
     }
+
     body {
         header {
+            background-color: rgba(0, 89, 179, 1) !important;
+
             div {
                 display: none;
+                height: auto !important;
             }
+
             h1 {
                 font-size: 22px;
                 padding: 0;
                 text-align: right;
                 width: auto;
             }
+
             nav {
                 height: 10vh;
+
                 ol {
                     text-align: left;
                     padding: 0;
+
                     li {
                         display: none;
                         margin: 0 0 0 1em;
@@ -49,15 +82,17 @@
                         text-align: left;
                         font-size: 40px;
                     }
+
                     li:first-child {
                         display: block;
                         border: none;
                         padding: 0;
                     }
+
                     li:first-child:hover {
                         background-color: transparent;
-                        color: black;
                     }
+
                     a {
                         display: none;
                         margin: 0;
@@ -65,14 +100,49 @@
                         width: auto;
                         font-size: 40px;
                     }
+
                     a:first-child {
                         display: block;
                         border: none;
                         padding: 0;
                     }
+
                     a:first-child:hover {
                         background-color: transparent;
-                        color: black;
+                    }
+
+                    div {
+                        display: none;
+
+                        li {
+                            display: block;
+                            width: 100%;
+                            border: none;
+                            color: rgb(199, 187, 187);
+                            margin: 0;
+                            padding: 0 0 0 2rem;
+
+                            a:hover {
+                                color: rgb(199, 187, 187);
+                            }
+                        }
+
+                        li:first-child {
+                            padding: 0 0 0 2rem;
+                        }
+
+                        li:hover {
+                            color: rgb(199, 187, 187);
+                            border-radius: 0;
+                        }
+
+                        li:first-child:hover {
+                            background-color: rgba(0, 51, 102, 1) !important;
+                        }
+
+                        a:first-child:hover {
+                            background-color: rgba(0, 51, 102, 1) !important;
+                        }
                     }
                 }
             }
@@ -81,34 +151,44 @@
 }
 
 @mixin main($h2, $liP, $p) {
-    margin: 0.5em !important;
+    main {
+        margin: 0.5em !important;
+    }
+
     h2 {
         font-size: $h2 !important;
     }
+
     ul {
         grid-template-columns: 1fr !important;
         margin-right: 2em;
+
         li {
             text-align: center;
+
             p {
                 font-size: $liP !important;
                 text-align: left;
                 display: inline;
             }
+
             p::after {
-                content:"\a";
+                content: "\a";
                 white-space: pre;
             }
+
             img {
                 width: inherit !important;
                 height: auto !important;
             }
         }
+
         li:nth-child(even) {
             margin-left: auto;
             text-align: center !important;
         }
     }
+
     p {
         font-size: $p !important;
     }
