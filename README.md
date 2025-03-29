@@ -31,3 +31,20 @@ A **static website** built with **HTML, JavaScript, and SASS**, designed to **ed
    ```bash
    git clone https://github.com/vladig98/SharkWorld.git
    cd SharkWorld
+2. Open `index.html` in a browser to explore the website.  
+
+## 📌 Project Purpose  
+
+This project demonstrates **a solid understanding of front-end development**, structured styling with **SASS**, and JavaScript-driven interactivity. It also raises **awareness about shark conservation** while showcasing modern web development skills.  
+
+## 🐋 Contributing  
+
+Contributions are welcome! Feel free to **fork** the repository, create a **new branch**, and submit a **pull request**.  
+
+## 📄 License  
+
+This project is licensed under the **MIT License**.  
+
+---  
+
+**🌊 Let’s spread awareness and appreciation for sharks! 🦈**  
