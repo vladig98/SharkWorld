@@ -3,15 +3,15 @@
 @mixin bubble-positions($count) {
     @for $i from 1 through $count {
         .bubble:nth-of-type(#{$i}) {
-            top: random($limit: 95) * 1%;
-            left: random($limit: 95) * 1%;
+            top: math.random($limit: 95) * 1%;
+            left: math.random($limit: 95) * 1%;
 
             @if $i < 10 {
                 animation: bubbleFloat 5s infinite;
             }
 
             @else {
-                animation: bubbleFloat max(random($limit: 15), 5) * 1s ease-in-out infinite;
+                animation: bubbleFloat max(math.random($limit: 15), 5) * 1s ease-in-out infinite;
             }
 
         }

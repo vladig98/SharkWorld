@@ -17,6 +17,45 @@ html {
     min-height: 100%;
 }
 
+#majorThreats,
+#safetyTips,
+#help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    ul {
+        list-style-type: none;
+    }
+}
+
+main {
+    font-size: 22px;
+
+    ul {
+        list-style-type: circle;
+        display: block;
+        text-align: start;
+
+        li {
+            padding: 0 !important;
+            text-align: start;
+        }
+    }
+
+    ol {
+        list-style-type: decimal;
+        text-align: start;
+
+        li {
+            padding: 0%;
+            width: auto;
+        }
+    }
+}
+
 body {
     margin: 0 0 100px;
     padding: 0;
