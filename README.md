@@ -5,8 +5,8 @@ A **static website** built with **HTML, JavaScript, and SASS**, designed to **ed
 ## 🚀 Live Demo
 
 You can check out the live version of this project here:  
-👉 [Live Demo](https://vladig98.github.io/SharkWorld/index.html)
-👉 [Live Demo](https://shark-world.vercel.app/)
+- 👉 [Live Demo Link 1](https://vladig98.github.io/SharkWorld/index.html)
+- 👉 [Live Demo Link 2](https://shark-world.vercel.app/)
 
 ## 🌊 Features  
 
