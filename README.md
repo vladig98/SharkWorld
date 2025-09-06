@@ -1,8 +1,12 @@
 # 🦈 Shark World - A Shark Awareness Website  
 
-🚀 **Live Demo:** [Visit the Website](https://vladig98.github.io/SharkWorld/index.html)  
-
 A **static website** built with **HTML, JavaScript, and SASS**, designed to **educate, engage, and inspire** users about the fascinating world of sharks. This project was developed as part of a **web development fundamentals course** and serves as a **project defense exam**.  
+
+## 🚀 Live Demo
+
+You can check out the live version of this project here:  
+👉 [Live Demo](https://vladig98.github.io/SharkWorld/index.html)
+👉 [Live Demo](https://shark-world.vercel.app/)
 
 ## 🌊 Features  
 
